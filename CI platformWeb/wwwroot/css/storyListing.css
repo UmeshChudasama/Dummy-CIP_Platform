@@ -1,0 +1,84 @@
+﻿.storylisting-head {
+    background:url(/images/Grow-Trees-On-the-path-to-environment-sustainability-login.png);
+    height: 250px;
+    padding:0px;
+    margin:0px;
+    background-size:cover;
+    background-position-y: 40%;
+}
+
+
+.sub-div-head{
+    background:rgb(0, 0, 0, 0.5);
+    height:inherit;
+    width:inherit;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.storylisting-head:hover  .sub-div-head{
+    display:flex;
+}
+.storylisting-head p{
+    width:55%;
+    color:white;
+}
+.user-story{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.user-story img{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    
+}
+.user-story p{
+    margin-top:0.5rem;
+    padding-left:1rem;
+}
+.storylisting-head a{
+    color:#ffffff;
+    border:1px solid #ffff;
+    border-radius:2rem;
+    text-decoration:none;
+    background-color:transparent;
+    width:fit-content;
+
+}
+.carding {
+    height:200px;
+}
+
+    
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    height: 100%;
+    display: none;
+    align-items: center;
+    background:rgb(0,0,0,0.5);
+}
+
+.centered a{
+    color:#ffff;
+    background-color:transparent;
+    width:fit-content;
+    text-decoration:none;
+    border-radius:2rem;
+}
+
+.on-hover{
+
+}
+
+.mission:hover .centered{
+    display:flex;
+}

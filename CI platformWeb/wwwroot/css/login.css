@@ -1,0 +1,123 @@
+#bagimage {
+    background-image: url('/images/Grow-Trees-On-the-path-to-environment-sustainability-login.png');
+    height: 983px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0px;
+}
+
+#logalign {
+    margin-bottom: 8%;
+
+}
+#logalign1 {
+    margin-bottom: 8%;
+}
+#logalign2 {
+    margin-bottom: 3.5%;
+    width: 80%;
+    text-align: center;
+}
+#logalign22 {
+    margin-bottom: 3.5%;
+    width: 80%;
+    text-align: center;
+}
+
+#loginbutton {
+    height: 48px;
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 24px;
+    border-color: #f88634;
+    text-align: center;
+    color: #f88634; 
+}
+#margintop{
+    margin-top: 40%;
+}
+#leftpad{
+    padding-left: 5%;
+}
+#boarderwidth {
+    width: 80%;
+}
+@media screen and (min-width:572px) and (max-width:990px) {
+
+    #logalign{
+        margin-bottom: 25px;
+    }
+    #logalign1 {
+        margin-bottom: 25px;
+    }
+    #margintop{
+        margin-top: 2%;
+    }
+    #leftpad{
+        padding-left: 15%;
+    }
+}
+
+@media screen and (max-width:571px) {
+
+    #logalign {
+        margin-bottom: 25px;
+    }
+    #logalign1 {
+        margin-bottom: 25px;
+        padding-left:15px;
+    }
+
+    #margintop {
+        margin-top: 2%;
+    }
+    #boarderwidth {
+    margin-left:-22px;
+    width:100%;
+    
+    }
+    #regmargin {
+        margin-left: -22px;
+        width: 100%;
+    }
+    #loginbutton {
+        width: 100%;
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    #textlog{
+        margin-left:-22px;
+    }
+    #logalign2 {
+        width: 100%;
+        margin-top:1px;
+        margin-left: -22px;
+    }
+    #logalign22 {
+        width: 100%;
+        margin-top: 1px;
+    }
+    #regmargin {
+        margin-left: 18px;
+    }
+
+    #leftpad {
+        padding-left: 0px;
+    }
+    .carousel-indicators {
+        letter-spacing: 5px;
+    }
+    
+}
+
+@media screen and (max-width:500px)
+{
+    #disap{
+        display : none;
+    }
+}
+
+.carousel-indicators{
+    letter-spacing:8px;
+}

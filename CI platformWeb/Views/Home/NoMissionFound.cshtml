@@ -1,0 +1,36 @@
+﻿@{
+    Layout = "_TopHeader";
+    ViewData["Title"] = "Mission Not Found";
+}
+<head>
+    <meta content="text/html" charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/missionNotFound.css" />
+</head>
+
+<div class="container-fluid justify-content-center mb-3 " style="width:100%;height:100%">
+
+    <div class="d-flex justify-content-center mb-1" >
+        <img  src="~/images/404-Page-image.png" alt="Network Error"/>
+    </div>
+    <div class="d-flex justify-content-center mb-4">
+        <h4 class="textstyle">Page Note Found</h4>
+    </div>
+    <div class="d-flex justify-content-center">
+        <p style="font-size:xx-large" class="textstyle"><strong>Oops!</strong> The page you were looking for doesn't exist.</p>
+    </div>
+    <div class="d-flex justify-content-center mb-2 text-muted">
+        <p class="textstyle">You may have Misstyped the address or the page may have moved.</p>
+    </div>
+    <div class="d-flex justify-content-center">
+        <a asp-controller="Home" asp-action="Index" class="btn border-warning text-warning apply-btn">
+            Go to HomePage &ensp; <i class="bi bi-arrow-right"></i>
+        </a>
+    </div>
+
+
+
+</div>

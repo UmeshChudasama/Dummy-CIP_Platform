@@ -1,0 +1,192 @@
+﻿body {
+    font-family: "Noto sans"
+}
+
+#cardtoptext {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #414141;
+    font-family: 'Noto Sans';
+    font-size: 26px;
+    line-height: normal;
+}
+
+
+.checked {
+    color: #F8D441;
+    font-size: 20px;
+}
+
+.unchecked {
+    font-size: 20px;
+    color: #DDDDDD;
+}
+
+#buttonprop {
+    align-items: center;
+    font-size: 23px;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+#middletext {
+    border: 1px solid #414141;
+    border-radius: 50px;
+    width: fit-content;
+}
+
+
+
+.toggleRowicon {
+    width: auto;
+}
+
+.grid-button {
+    border: none;
+    border-radius: 50%;
+    background: none;
+    height:fit-content;
+}
+
+.list-button {
+    border: none;
+    border-radius: 50%;
+    background: none;
+    height:fit-content;
+}
+
+.active {
+    background-color: slategrey;
+    border-radius: 4px;
+}
+
+.sortBy {
+    height: 2.7rem;
+    width: 15em;
+    margin-right: 1.5em;
+}
+
+
+.timeline {
+    font-size: 0.8em;
+    width: fit-content;
+    border: 1px solid gray;
+    border-radius: 20px;
+    translate: 0 50%;
+    background-color: white;
+}
+
+.icons {
+    justify-content: space-between;
+    font-size: x-large;
+}
+
+.mission-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+}
+
+.mission {
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 4px 0 rgba(15, 4, 4, 0.05);
+    transition: all 0.2s ease-out;
+}
+
+.mission .mission-detail .gridctnr .img{
+    width:fit-content;
+    height:fit-content;
+    align-items:center;
+}
+
+
+.rating-alignment {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:566px) and (min-width:426px) {
+    .rating-alignment {
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+.apply-btn {
+    border-radius: 20px;
+    
+}
+
+.gridctnr {
+    grid-template-columns: auto auto;
+}
+
+    .gridctnr img {
+        grid-row: 1 / 3 !important;
+    }
+
+
+
+
+.showlist.mission-list {
+    grid-template-columns: 100% !important;
+}
+
+.showlist .mission {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    /*grid-auto-rows:fit-content();*/
+}
+.applybtn{
+
+}
+
+.card-body{
+    
+}
+.showlist .mission .card-body{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+}
+
+.showlist .mission .card-body .cardtxt {
+        grid-column: 1 / span2;
+    }
+
+    .showlist .mission .card-body .mission-detail {
+        grid-column: 2 /span3;
+    }
+
+    .showlist .mission .card-body .applybtn{
+        margin-top:-2rem!important;
+        width:fit-content;
+    }
+
+@media (max-width: 992px) {
+    .mission-list {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 425px)  {
+    .mission-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+.progress{
+    border-radius:1rem;
+}
+
+

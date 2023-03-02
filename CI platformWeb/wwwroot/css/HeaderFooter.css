@@ -1,0 +1,34 @@
+﻿
+#profilebutton {
+    border: none;
+    background-color: white;
+
+}
+#footer{
+    color: #414141;
+    font-family:'Noto Sans';
+}
+#profileimage{
+   border-radius:50%;
+   height:30px;
+   width:30px;
+}
+#headerbuttonpadding {
+    padding-right:60px;
+}
+#headerpadding {
+    padding-left:18%;
+}
+@media screen and (max-width:768px) {
+    #headerpadding {
+        padding-left:0%;
+    }
+    #headerbuttonpadding {
+        padding-right: 25px;
+    }
+    #minidevise {
+        display: none;
+    }
+}
+
+

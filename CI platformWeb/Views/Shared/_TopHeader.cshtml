@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - CI_platformWeb</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/HeaderFooter.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+  
+</head>
+<body>
+    <header class="border-bottom">
+        <nav class="navbar navbar-expand navbar-light bg-white flex-nowrap" style="width:100%;padding-top:0;padding-bottom:inherit;">
+            <div class="container">
+                <div class="col-6" id="headerpadding">
+                    <ul class="navbar-nav flex-nowrap">
+                        <li class="nav-item">
+                        </li>
+                        <li class="nav-item" id="headerbuttonpadding">
+                            <a class="nav-link" href="#">Stories</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Policy</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">privacy</a>
+                                <a class="dropdown-item" href="#">Term and Condition</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Help</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <button class="nav-item dropdown" id="profilebutton">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" id="footer"><img id="profileimage" src="~/images/user-img.png">&ensp; Evan Donohue</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">My Profile</a>
+                            <a class="dropdown-item" href="#">Logout</a>
+                        </div>
+                    </button>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid m-0 p-0">
+        <main role="main" class="pb-3 ">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer text-muted">
+       <nav class="navbar navbar-expand navbar-light  flex-nowrap" style="width:100%">
+            <div class="container">
+                <div class="col-6 justify-content-center text-muted">
+                    <ul class="navbar-nav flex-nowrap">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Privacy Policy</a>
+                        </li>
+                        <li class="nav-item" id="minidevise">
+                            <a class="nav-link" href="#">Cookie Policy</a>
+                        </li>
+                        <li class="nav-item" id="minidevise">
+                            <a class="nav-link" href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="justify-content-between" id="minidevise">
+                    &copy; 2023 - CI_platformWeb. All right reserved.
+
+                </div>
+            </div>
+      </nav>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
